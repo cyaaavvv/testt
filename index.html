@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRJ Product Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Container for the Three.js scene -->
+    <div id="scene-container"></div>
+
+    <!-- Welcome screen -->
+    <div id="welcome-screen">
+        <img src="nrj-logo.png" alt="NRJ Logo" id="nrj-logo">
+        <h1>Welcome to NRJ</h1>
+    </div>
+
+    <!-- Product grid (initially hidden) -->
+    <div id="product-grid" class="hidden">
+        <!-- Product items will be dynamically added here by JavaScript -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
